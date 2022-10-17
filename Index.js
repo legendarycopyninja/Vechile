@@ -10,6 +10,7 @@ result.innerText = count;
 }
 
 function reset() {
+    count =0;
     result.textContent = 0;
     saveEl.textContent = "Previous Entries : " ;
    }
